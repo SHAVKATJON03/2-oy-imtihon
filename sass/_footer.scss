@@ -1,0 +1,207 @@
+footer {
+  .all {
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 320px;
+    padding-bottom: 46px;
+  }
+  .all:hover {
+    color: $main_green;
+    transition: all 0.2s ease-in-out;
+  }
+}
+.footer_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 154px;
+
+  div {
+    p {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: $main_dark;
+      width: 280px;
+    }
+    form {
+      margin-top: 34px;
+      input {
+        width: 328px;
+        height: 48px;
+        background: #ffffff;
+        border: 1px solid #bcd0e5;
+        border-radius: 4px;
+        outline: none;
+      }
+      input::placeholder {
+        padding-left: 16px;
+        font-size: 16px;
+        line-height: 28px;
+        color: #bcd0e5;
+      }
+    }
+    button {
+      @include btn_sign;
+      background-color: $main_green;
+      width: 131px;
+      height: 39px;
+      color: $main_white;
+      margin-top: 21px;
+      margin-bottom: 37px;
+    }
+    button:hover {
+      background-color: $main_white;
+      color: $main_green;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  ul {
+    li {
+      p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: $main_dark;
+        margin-bottom: 8px;
+      }
+      a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 35px;
+        color: $main_dark;
+      }
+      a:hover {
+        color: $main_green;
+      }
+    }
+  }
+  .item1 {
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 8.5px;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .icons {
+      margin-top: 28px;
+    }
+  }
+}
+
+@media (max-width: $maxWidth) {
+  footer {
+    .all {
+      margin: 0 auto;
+      text-align: start;
+      margin-left: -50px;
+      padding-bottom: 46px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      text-align: center;
+      color: #22343d;
+      display: block;
+      width: 361px;
+     
+    }
+    .all:hover {
+      color: $main_green;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+  .footer_card {
+    display: block;
+    margin-left: -30px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 154px;
+    text-align: center;
+    margin: 0 auto;
+
+    div {
+      p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: $main_dark;
+        width: 280px;
+        margin-top: 32px;
+      }
+      form {
+        margin-top: 34px;
+        input {
+          width: 328px;
+          height: 48px;
+          background: #ffffff;
+          border: 1px solid #bcd0e5;
+          border-radius: 4px;
+          outline: none;
+          margin-left: -30px;
+        }
+        input::placeholder {
+          padding-left: 16px;
+          font-size: 16px;
+          line-height: 28px;
+          color: #bcd0e5;
+        }
+      }
+      button {
+        @include btn_sign;
+        background-color: $main_green;
+        width: 131px;
+        height: 39px;
+        color: $main_white;
+        margin-top: 21px;
+        margin-bottom: 37px;
+        margin-left: 70px;
+      }
+      button:hover {
+        background-color: $main_white;
+        color: $main_green;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+    ul {
+        margin-top: 32px;
+      li {
+        p {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          color: $main_dark;
+          margin-bottom: 8px;
+        }
+        a {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 35px;
+          color: $main_dark;
+        }
+        a:hover {
+          color: $main_green;
+        }
+      }
+    }
+    .item1 {
+        margin-left: 45px;
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 8.5px;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      .icons {
+        margin-top: 28px;
+      }
+    }
+  }
+}

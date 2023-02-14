@@ -1555,5 +1555,210 @@ a {
     transition: all 0.3s ease-in-out;
   }
 }
+footer .all {
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 320px;
+  padding-bottom: 46px;
+}
+footer .all:hover {
+  color: #02897a;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 154px;
+}
+.footer_card div p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22343d;
+  width: 280px;
+}
+.footer_card div form {
+  margin-top: 34px;
+}
+.footer_card div form input {
+  width: 328px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  outline: none;
+}
+.footer_card div form input::placeholder {
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #bcd0e5;
+}
+.footer_card div button {
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #173a56;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #02897a;
+  width: 131px;
+  height: 39px;
+  color: #ffffff;
+  margin-top: 21px;
+  margin-bottom: 37px;
+}
+.footer_card div button:hover {
+  background-color: #ffffff;
+  color: #02897a;
+  transition: all 0.3s ease-in-out;
+}
+.footer_card ul li p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22343d;
+  margin-bottom: 8px;
+}
+.footer_card ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: #22343d;
+}
+.footer_card ul li a:hover {
+  color: #02897a;
+}
+.footer_card .item1 .logo {
+  display: flex;
+  align-items: center;
+  gap: 8.5px;
+}
+.footer_card .item1 ul {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.footer_card .item1 .icons {
+  margin-top: 28px;
+}
+
+@media (max-width: 411px) {
+  footer .all {
+    margin: 0 auto;
+    text-align: start;
+    margin-left: -50px;
+    padding-bottom: 46px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #22343d;
+    display: block;
+    width: 361px;
+  }
+  footer .all:hover {
+    color: #02897a;
+    transition: all 0.2s ease-in-out;
+  }
+  .footer_card {
+    display: block;
+    margin-left: -30px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 154px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer_card div p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22343d;
+    width: 280px;
+    margin-top: 32px;
+  }
+  .footer_card div form {
+    margin-top: 34px;
+  }
+  .footer_card div form input {
+    width: 328px;
+    height: 48px;
+    background: #ffffff;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    outline: none;
+    margin-left: -30px;
+  }
+  .footer_card div form input::placeholder {
+    padding-left: 16px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #bcd0e5;
+  }
+  .footer_card div button {
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #173a56;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #02897a;
+    width: 131px;
+    height: 39px;
+    color: #ffffff;
+    margin-top: 21px;
+    margin-bottom: 37px;
+    margin-left: 70px;
+  }
+  .footer_card div button:hover {
+    background-color: #ffffff;
+    color: #02897a;
+    transition: all 0.3s ease-in-out;
+  }
+  .footer_card ul {
+    margin-top: 32px;
+  }
+  .footer_card ul li p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22343d;
+    margin-bottom: 8px;
+  }
+  .footer_card ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #22343d;
+  }
+  .footer_card ul li a:hover {
+    color: #02897a;
+  }
+  .footer_card .item1 {
+    margin-left: 45px;
+  }
+  .footer_card .item1 .logo {
+    display: flex;
+    align-items: center;
+    gap: 8.5px;
+  }
+  .footer_card .item1 ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .footer_card .item1 .icons {
+    margin-top: 28px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
