@@ -1088,5 +1088,229 @@ a {
     transition: all 0.2s ease-in-out;
   }
 }
+.table .standart {
+  display: flex;
+  justify-content: space-between;
+}
+.table h2 {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343d;
+}
+.table .offer {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343d;
+}
+.table .free {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  width: 322px;
+  height: 488px;
+  text-align: center;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+.table .free :nth-child(2) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #22343d;
+  margin-bottom: 40px;
+}
+.table .free ul {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+}
+.table .free ul :nth-child(1) p {
+  width: 50px;
+  height: 100px;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #02897a;
+  margin-top: -45px;
+}
+.table .free ul :nth-child(2) p {
+  text-align: start;
+  line-height: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #02897a;
+}
+.table .free ul :nth-child(2) p span {
+  color: #AFAFAF;
+}
+.table .free h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343d;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 24px;
+  margin-bottom: 8px;
+}
+.table .free .not {
+  margin: 16px 0;
+}
+.table .free button {
+  border-radius: 4px;
+  height: 53px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 139px;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: 38px;
+  background-color: #02897a;
+  color: #ffffff;
+}
+.table .free:hover {
+  background-color: #02897a;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.table .free:hover h3, .table .free:hover p {
+  color: white;
+}
+.table .free:hover button {
+  background-color: #ffffff;
+  color: #22343d;
+  transition: all 0.3s ease-in-out;
+}
+.table .free:hover ul p {
+  color: #ffffff;
+}
+
+@media (max-width: 411px) {
+  .table .standart {
+    display: block;
+    justify-content: space-between;
+    margin-left: -30px;
+  }
+  .table h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: #22343d;
+  }
+  .table .offer {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22343d;
+  }
+  .table .free {
+    background: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 322px;
+    height: 488px;
+    text-align: center;
+    margin-bottom: 32px;
+    margin-top: 50px;
+  }
+  .table .free :nth-child(2) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #22343d;
+    margin-bottom: 40px;
+  }
+  .table .free ul {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+  }
+  .table .free ul :nth-child(1) p {
+    width: 50px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #02897a;
+    margin-top: -45px;
+  }
+  .table .free ul :nth-child(2) p {
+    text-align: start;
+    line-height: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #02897a;
+  }
+  .table .free ul :nth-child(2) p span {
+    color: #AFAFAF;
+  }
+  .table .free h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #22343d;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 24px;
+    margin-bottom: 8px;
+  }
+  .table .free .not {
+    margin: 16px 0;
+  }
+  .table .free button {
+    border-radius: 4px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 139px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 38px;
+    background-color: #02897a;
+    color: #ffffff;
+  }
+  .table .free:hover {
+    background-color: #02897a;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  .table .free:hover h3, .table .free:hover p {
+    color: white;
+  }
+  .table .free:hover button {
+    background-color: #ffffff;
+    color: #22343d;
+    transition: all 0.3s ease-in-out;
+  }
+  .table .free:hover ul p {
+    color: #ffffff;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,230 @@
+.table {
+    .standart{
+        display: flex;
+        justify-content: space-between;
+    }
+  h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: $main_dark;
+  }
+  .offer {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $main_dark;
+  }
+  .free {
+    background: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 322px;
+    height: 488px;
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    :nth-child(2) {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 40px;
+      color: $main_dark;
+      margin-bottom: 40px;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      margin-left: 80px;
+      :nth-child(1) {
+        p {
+          width: 50px;
+          height: 100px;
+          font-weight: 700;
+          font-size: 76px;
+          line-height: 100px;
+          text-align: center;
+          letter-spacing: 0.2px;
+          color: $main_green;
+          margin-top: -45px;
+        }
+      }
+      :nth-child(2) {
+        p {
+          text-align: start;
+          line-height: 0;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+          letter-spacing: 0.1px;
+          color: $main_green;
+          span {
+            color: #AFAFAF;
+          }
+        }
+      }
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 40px;
+      color: $main_dark;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 24px;
+      margin-bottom: 8px;
+    }
+    .not{
+        margin: 16px 0;
+    }
+    button{
+        @include btn_green;
+        width: 139px;
+        height: 44px;
+        margin: 0 auto;
+        margin-top: 38px;
+        background-color: $main_green;
+        color: $main_white;
+        
+    }
+  }
+  .free:hover{
+    background-color: $main_green;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    h3, p{
+        color: white;
+    }
+  }
+  .free:hover button{
+    background-color: $main_white;
+    color: $main_dark;
+    transition: all 0.3s ease-in-out;
+  }
+  .free:hover ul{
+    p{
+        color: $main_white;
+    }
+  }
+}   
+@media  (max-width:$maxWidth){
+
+    .table {
+        .standart{
+            display: block;
+            justify-content: space-between;
+            margin-left: -30px;
+        }
+      h2 {
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 51px;
+        color: $main_dark;
+      }
+      .offer {
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: $main_dark;
+      }
+      .free {
+        background: #ffffff;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        width: 322px;
+        height: 488px;
+        text-align: center;
+        margin-bottom: 32px;
+        margin-top: 50px;
+        :nth-child(2) {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 40px;
+          color: $main_dark;
+          margin-bottom: 40px;
+        }
+        ul {
+          display: flex;
+          align-items: center;
+          margin-left: 80px;
+          :nth-child(1) {
+            p {
+              width: 50px;
+              height: 100px;
+              font-weight: 700;
+              font-size: 76px;
+              line-height: 100px;
+              text-align: center;
+              letter-spacing: 0.2px;
+              color: $main_green;
+              margin-top: -45px;
+            }
+          }
+          :nth-child(2) {
+            p {
+              text-align: start;
+              line-height: 0;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 30px;
+              letter-spacing: 0.1px;
+              color: $main_green;
+              span {
+                color: #AFAFAF;
+              }
+            }
+          }
+        }
+        h3 {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 40px;
+          color: $main_dark;
+          margin: 0 auto;
+          text-align: center;
+          padding-top: 24px;
+          margin-bottom: 8px;
+        }
+        .not{
+            margin: 16px 0;
+        }
+        button{
+            @include btn_green;
+            width: 139px;
+            height: 44px;
+            margin: 0 auto;
+            margin-top: 38px;
+            background-color: $main_green;
+            color: $main_white;
+            
+        }
+      }
+      .free:hover{
+        background-color: $main_green;
+        color: white;
+        transition: all 0.3s ease-in-out;
+        h3, p{
+            color: white;
+        }
+      }
+      .free:hover button{
+        background-color: $main_white;
+        color: $main_dark;
+        transition: all 0.3s ease-in-out;
+      }
+      .free:hover ul{
+        p{
+            color: $main_white;
+        }
+      }
+    }  
+
+
+}
