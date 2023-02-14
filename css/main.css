@@ -768,5 +768,200 @@ a {
     margin-bottom: 30px;
   }
 }
+.quisc {
+  margin-top: 80px;
+  background-image: url(../img/quisc.svg);
+  background-repeat: no-repeat;
+  background-position: 0 52px;
+}
+.quisc h2 {
+  padding-top: 100px;
+  margin: 52px 0 16px 0;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #22343d;
+}
+.quisc p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #22343d;
+  width: 540px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.quisc button {
+  border-radius: 4px;
+  height: 53px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 216px;
+  background-color: #02897a;
+  margin: 0 auto;
+  color: #ffffff;
+  margin-top: 48px;
+  margin-bottom: 150px;
+}
+.quisc button:hover {
+  background-color: #ffffff;
+  color: #22343d;
+  transition: all 0.3s ease-in-out;
+}
+.quisc .easy {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.quisc .easy .p4-img {
+  margin-left: auto;
+}
+.quisc .easy ul {
+  display: flex;
+  align-items: flex-start;
+}
+.quisc .easy ul img {
+  margin-top: 32px;
+}
+.quisc .easy ul .p1,
+.quisc .easy ul .p2,
+.quisc .easy ul .p3,
+.quisc .easy ul .p4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 274px;
+  height: 53px;
+  background: #ffffff;
+  box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+  border-radius: 26.5px;
+}
+.quisc .easy ul .p2 {
+  margin-left: auto;
+  margin-top: 46px;
+}
+.quisc .easy ul .p3 {
+  margin-top: 46px;
+}
+.quisc .easy ul .p4 {
+  margin-top: 46px;
+  margin-left: auto;
+}
+
+@media (max-width: 411px) {
+  .quisc {
+    margin-top: 2700px;
+    background-image: url(../img/quisc.svg);
+    background-repeat: no-repeat;
+    background-position: center 40px;
+  }
+  .quisc h2 {
+    padding-top: 100px;
+    margin: 52px 0 16px 0;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #22343d;
+    margin-left: -40px;
+    width: 340px;
+  }
+  .quisc p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #22343d;
+    width: 338px;
+    margin-left: -40px;
+    margin-bottom: 10px;
+  }
+  .quisc button {
+    border-radius: 4px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 216px;
+    background-color: #02897a;
+    margin: 0 auto;
+    color: #ffffff;
+    margin-top: 308px;
+    margin-bottom: 150px;
+  }
+  .quisc button:hover {
+    background-color: #ffffff;
+    color: #22343d;
+    transition: all 0.3s ease-in-out;
+  }
+  .quisc .easy {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+  }
+  .quisc .easy .p4-img {
+    position: absolute;
+    top: 260px;
+  }
+  .quisc .easy .ul3 {
+    position: absolute;
+    top: 380px;
+  }
+  .quisc .easy ul {
+    display: flex;
+    align-items: flex-start;
+  }
+  .quisc .easy ul img {
+    margin-top: 32px;
+    margin-left: -40px;
+  }
+  .quisc .easy ul .p1,
+  .quisc .easy ul .p2,
+  .quisc .easy ul .p3,
+  .quisc .easy ul .p4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 229px;
+    height: 63px;
+    background: #ffffff;
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+    border-radius: 26.5px;
+    margin-right: auto;
+  }
+  .quisc .easy ul .p1 p,
+  .quisc .easy ul .p2 p,
+  .quisc .easy ul .p3 p,
+  .quisc .easy ul .p4 p {
+    width: 200px;
+    text-align: start;
+    margin-left: 30px;
+  }
+  .quisc .easy ul .p2 {
+    margin-left: 0;
+    margin-left: -40px;
+    margin-top: 46px;
+  }
+  .quisc .easy ul .p3 {
+    margin-top: 46px;
+  }
+  .quisc .easy ul .p3 p {
+    margin-right: 80px;
+  }
+  .quisc .easy ul .p4 {
+    margin-top: 46px;
+    margin-left: auto;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
