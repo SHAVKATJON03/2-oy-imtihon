@@ -1,0 +1,138 @@
+.hero {
+  padding-bottom: 114px;
+  display: flex;
+  justify-content: space-between;
+
+  .card_left {
+    h2 {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 60px;
+      color: $main_dark;
+      margin-top: 174px;
+      margin-bottom: 18px;
+      width: 400px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: $main_dark;
+      margin-bottom: 45px;
+      width: 458px;
+    }
+    div {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin: 0 auto;
+      button {
+        @include btn_sign;
+        width: 175px;
+        height: 53px;
+        background-color: $main_green;
+        color: white;
+        transition: all 0.3s ease-in-out;
+      }
+      button:hover {
+        background-color: $main_white;
+        color: $main_dark;
+        transition: all 0.3s ease-in-out;
+      }
+      ul {
+        display: flex;
+        gap: 8.5px;
+        align-items: center;
+        li {
+          a {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            text-decoration-line: underline;
+            color: $main_green;
+          }
+        }
+      }
+    }
+  }
+  .hero_svg {
+    margin-top: 43px;
+  }
+}
+@media (max-width: $maxWidth) {
+  .hero {
+    padding-bottom: 114px;
+    display: block;
+    justify-content: flex-start;
+    margin: 0 auto;
+    position: relative;
+    .card_left {
+      h2 {
+        position: absolute;
+        width: 334px;
+        height: 120px;
+        left: 0;
+        top: 240.97px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 60px;
+        text-align: center;
+        color: #22343d;
+      }
+      p {
+        position: absolute;
+        width: 326px;
+        height: 95px;
+        left: 0px;
+        top: 556.97px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #22343d;
+      }
+      div {
+        padding-bottom: 115px;
+        position: absolute;
+        top: 700px;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        width: 330px;
+        button {
+          background: #02897a;
+          border-radius: 4px;
+          width: 122px;
+          height: 53px;
+          background-color: $main_green;
+          color: white;
+          transition: all 0.3s ease-in-out;
+        }
+        button:hover {
+          background-color: $main_white;
+          color: $main_dark;
+          transition: all 0.3s ease-in-out;
+        }
+        ul {
+          display: flex;
+          gap: 8.5px;
+          align-items: center;
+          margin-left: -10px;
+          li {
+            a {
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 18px;
+              text-decoration-line: underline;
+              color: $main_green;
+            }
+          }
+        }
+      }
+    }
+    .hero_svg {
+      margin-top: 43px;
+      width: 280px;
+    }
+  }
+}

@@ -1,0 +1,112 @@
+.product {
+    background-image: url(../img/product_bg.svg);
+    background-repeat: no-repeat;
+    background-position: -0px 150px;
+    padding-bottom: 200px;
+
+    button{
+        @include btn_green;
+        width: 175px;
+        background-color: $main_green;
+        transition: all 0.3s ease-in-out;
+        color: $main_white;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    button:hover{
+        background-color: $main_white;
+        color: $main_dark;
+    }
+    .card-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+  h2 {
+    margin: 0 auto;
+    margin-bottom: 57px;
+    width: 500px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: $main_dark;
+  }
+  ul {
+    li {
+      h4 {
+        margin-top: 30px;
+        margin-bottom: 13px;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+        color: #22343d;
+      }
+      p {
+        width: 200px;
+        text-align: start;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343d;
+      }
+    }
+  }
+}
+@media  (max-width:$maxWidth){
+    .product {
+        background-image: url(../img/product_bg.svg);
+        background-repeat: no-repeat;
+        background-position: -0px 150px;
+        padding-bottom: 200px;
+    
+        button{
+            @include btn_green;
+            width: 175px;
+            background-color: $main_green;
+            transition: all 0.3s ease-in-out;
+            color: $main_white;
+            margin: 0 auto;
+            margin-top: 60px;
+        }
+        button:hover{
+            background-color: $main_white;
+            color: $main_dark;
+        }
+        .card-item{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+      h2 {
+        margin: 0 auto;
+        margin-bottom: 57px;
+        width: 500px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        color: $main_dark;
+      }
+      ul {
+        li {
+          h4 {
+            margin-top: 30px;
+            margin-bottom: 13px;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 33px;
+            color: #22343d;
+          }
+          p {
+            width: 200px;
+            text-align: start;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #22343d;
+          }
+        }
+      }
+    }
+}

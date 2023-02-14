@@ -1,0 +1,227 @@
+.header_navbar {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  display: flex;
+  align-items: center;
+  .menu {
+    display: none;
+  }
+  label {
+    position: absolute;
+    top: 19px;
+    right: 36px;
+    z-index: 1;
+    display: none;
+  }
+  input {
+    display: none;
+  }
+  .logo {
+    display: flex;
+    gap: 16px;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-left: 200px;
+    li {
+      a {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: #475e69;
+      }
+      a:hover {
+        color: $main_dark;
+      }
+    }
+  }
+  .btn_sign {
+    @include btn_sign;
+    width: 110px;
+    height: 43px;
+    margin-left: 96px;
+  }
+  .btn_sign:hover {
+    background-color: $main_green;
+    color: $main_white;
+  }
+  .btn_green {
+    @include btn_sign;
+    margin-left: 24px;
+    width: 110px;
+    height: 43px;
+    background-color: $main_green;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  .btn_green:hover {
+    background-color: $main_white;
+    color: $main_dark;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .krug {
+    margin-left: auto;
+  }
+}
+@media (max-width: $maxWidth) {
+  .header_navbar {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    display: flex;
+    align-items: center;
+    #check:checked ~ .menu {
+      display: block;
+      position: absolute;
+      width: 100%;
+    }
+    .menu {
+      display: none;
+      position: absolute;
+      margin-left: -75px;
+      z-index: 1;
+      position: relative;
+      .btn_sign{
+        position: absolute;
+        left: 75px;
+      }
+      .btn_green{
+        position: absolute;
+        left: 30px;
+      }
+      div{
+        display: block;
+        position: absolute;
+       top: 250px;
+        a{
+          display: block;
+          position: absolute;
+          z-index: 1;
+          top: 7px;
+          left: 25px;
+        }
+      }
+      label{
+        position: absolute;
+        top: -20px;
+      }
+      nav {
+        display: block;
+        ul {
+          display: block;
+          background-color: $main_blue;
+          height: 100vh;
+          top: -37px;
+          right: -10px;
+          width: 400px;
+          position: absolute;
+          transition: all 1s ease-in-out;
+          transform-origin: right top;
+          li{
+            a:hover{
+              color: $main_dark;
+            }
+          }
+         :nth-child(1){
+          margin:0 70px;
+          margin-top: 100px;
+          margin-bottom: 15px;
+          color: white;
+         }
+         :nth-child(2){
+          margin:0 70px;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          color: white;
+         }
+         :nth-child(3){
+          margin:0 70px;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          color: white;
+         }
+         :nth-child(4){
+          margin:0 70px;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          color: white;
+         }
+        }
+      }
+    }
+    label {
+      position: absolute;
+      top: 19px;
+      right: 36px;
+      z-index: 1;
+      display: block;
+    }
+    input {
+      display: none;
+    }
+    .logo {
+      display: flex;
+      gap: 16px;
+    }
+    label {
+      display: block;
+      margin-left: auto;
+    }
+    ul {
+      display: none;
+      align-items: center;
+      gap: 28px;
+      margin-left: 200px;
+      li {
+        a {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 28px;
+          color: #475e69;
+        }
+        a:hover {
+          color: $main_dark;
+        }
+      }
+    }
+    .btn_sign {
+      @include btn_sign;
+      width: 110px;
+      height: 43px;
+      margin-left: 96px;
+      display: none;
+      a {
+        display: none;
+      }
+    }
+    .btn_sign:hover {
+      background-color: $main_green;
+      color: $main_white;
+    }
+    .btn_green {
+      @include btn_sign;
+      margin-left: 24px;
+      width: 110px;
+      height: 43px;
+      background-color: $main_green;
+      color: white;
+      transition: all 0.3s ease-in-out;
+      display: none;
+      a {
+        display: none;
+      }
+    }
+    .btn_green:hover {
+      background-color: $main_white;
+      color: $main_dark;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .krug {
+      display: none;
+      margin-left: auto;
+    }
+  }
+}
