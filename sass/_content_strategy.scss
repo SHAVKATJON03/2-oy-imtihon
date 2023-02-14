@@ -1,0 +1,132 @@
+.contents {
+  h2 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: $main_dark;
+  }
+  p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: $main_dark;
+    margin-bottom: 32px;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 230px;
+    .strategy {
+      background: #ffffff;
+      border-radius: 8px;
+      border: 1px solid silver;
+      width: 348px;
+      height: 348px;
+
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: $main_dark;
+        margin-top: 24;
+        margin-bottom: 12px;
+        span {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 40px;
+          color: #22343d;
+        }
+      }
+      li {
+        width: 294px;
+        margin-left: 24px;
+        img {
+          margin-left: -24px;
+        }
+        a {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 40px;
+          color: $main_dark;
+        }
+        a:hover {
+          color: $main_green;
+          transition: all 0.2s ease-in-out;
+        }
+      }
+    }
+  }
+}
+@media (max-width: $maxWidth) {
+  .contents {
+    h2 {
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 51px;
+      color: $main_dark;
+      width: 349px;
+      margin-left: -40px;
+    }
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      color: $main_dark;
+      margin-bottom: 32px;
+      width: 349px;
+      margin-left: -40px;
+    }
+    .content {
+      display: block;
+      justify-content: space-between;
+
+      margin-bottom: 61px;
+      .strategy {
+        background: #ffffff;
+        border-radius: 8px;
+        border: 1px solid silver;
+        width: 348px;
+        height: 348px;
+        margin-left: -40px;
+        margin-top: 16px;
+
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          color: $main_dark;
+          margin-top: 24;
+          margin-bottom: 12px;
+          span {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 40px;
+            color: #22343d;
+          }
+        }
+        li {
+          width: 294px;
+          margin-left: 24px;
+          p{
+            margin: 0 auto;
+            width: 330px;
+          }
+          img {
+            margin-left: -24px;
+          }
+          a {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 40px;
+            color: $main_dark;
+          }
+          a:hover {
+            color: $main_green;
+            transition: all 0.2s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}

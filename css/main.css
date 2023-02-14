@@ -963,5 +963,130 @@ a {
     margin-left: auto;
   }
 }
+.contents h2 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343d;
+}
+.contents p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343d;
+  margin-bottom: 32px;
+}
+.contents .content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 230px;
+}
+.contents .content .strategy {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid silver;
+  width: 348px;
+  height: 348px;
+}
+.contents .content .strategy p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #22343d;
+  margin-top: 24;
+  margin-bottom: 12px;
+}
+.contents .content .strategy p span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  color: #22343d;
+}
+.contents .content .strategy li {
+  width: 294px;
+  margin-left: 24px;
+}
+.contents .content .strategy li img {
+  margin-left: -24px;
+}
+.contents .content .strategy li a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343d;
+}
+.contents .content .strategy li a:hover {
+  color: #02897a;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 411px) {
+  .contents h2 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: #22343d;
+    width: 349px;
+    margin-left: -40px;
+  }
+  .contents p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343d;
+    margin-bottom: 32px;
+    width: 349px;
+    margin-left: -40px;
+  }
+  .contents .content {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 61px;
+  }
+  .contents .content .strategy {
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid silver;
+    width: 348px;
+    height: 348px;
+    margin-left: -40px;
+    margin-top: 16px;
+  }
+  .contents .content .strategy p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343d;
+    margin-top: 24;
+    margin-bottom: 12px;
+  }
+  .contents .content .strategy p span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    color: #22343d;
+  }
+  .contents .content .strategy li {
+    width: 294px;
+    margin-left: 24px;
+  }
+  .contents .content .strategy li p {
+    margin: 0 auto;
+    width: 330px;
+  }
+  .contents .content .strategy li img {
+    margin-left: -24px;
+  }
+  .contents .content .strategy li a {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #22343d;
+  }
+  .contents .content .strategy li a:hover {
+    color: #02897a;
+    transition: all 0.2s ease-in-out;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
