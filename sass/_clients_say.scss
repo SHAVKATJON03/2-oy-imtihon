@@ -1,0 +1,155 @@
+.clients_say {
+    margin-bottom: 150px;
+  h2 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: $main_dark;
+    margin-bottom: 8px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $main_dark;
+    margin-bottom: 50px;
+    text-align: center;
+    margin: 0 auto;
+    width: 537px;
+  }
+  .clients{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .say {
+    margin-top: 50px;
+    background: #ffffff;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    width: 327px;
+    height: 236px;
+    :nth-child(1) {
+      margin: 28px 0 0px 28px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0.2px;
+      color: #737373;
+      width: 275px;
+      text-align: start;
+    }
+    .ari {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      h5 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: $main_green;
+        margin-left: -30px;
+      }
+      p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: $main_dark;
+      }
+    }
+  }
+}
+@media  (max-width:$maxWidth){
+
+    .clients_say {
+        margin-bottom: 150px;
+      h2 {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: $main_dark;
+        margin-bottom: 8px;
+        text-align: center;
+        margin: 0 auto;
+        width: 323px;
+        margin-left: -30px;
+        margin-top: 70px;
+
+      }
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: $main_dark;
+        margin-bottom: 50px;
+        text-align: center;
+        margin: 0 auto;
+        width: 303px;
+        margin-left: -30px;
+
+      }
+      .clients{
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: -30px;
+      }
+      .say {
+        margin-top: 50px;
+        background: #ffffff;
+        border: 1px solid #dedede;
+        border-radius: 5px;
+        width: 327px;
+        height: 236px;
+        :nth-child(1) {
+          margin: 28px 0 0px 28px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: 0.2px;
+          color: #737373;
+          width: 275px;
+          text-align: start;
+          margin-left: 26px;
+        }
+        .ari {
+          display: flex;
+          gap: 14px;
+          align-items: center;
+          h5 {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: $main_green;
+            margin-left: -30px;
+          }
+          p {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: $main_dark;
+            margin-left: 0;
+            width: 100px;
+          }
+        }
+      }
+    }
+
+
+}

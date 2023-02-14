@@ -42,10 +42,14 @@
     width: 110px;
     height: 43px;
     margin-left: 96px;
+    transition: all 0.3s ease-in-out;
+
   }
   .btn_sign:hover {
     background-color: $main_green;
     color: $main_white;
+    transition: all 0.3s ease-in-out;
+
   }
   .btn_green {
     @include btn_sign;
@@ -192,6 +196,7 @@
       height: 43px;
       margin-left: 96px;
       display: none;
+
       a {
         display: none;
       }
@@ -199,6 +204,8 @@
     .btn_sign:hover {
       background-color: $main_green;
       color: $main_white;
+      transition: all 0.3s ease-in-out;
+
     }
     .btn_green {
       @include btn_sign;
