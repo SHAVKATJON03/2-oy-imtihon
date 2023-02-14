@@ -35,6 +35,9 @@
       a:hover {
         color: $main_dark;
       }
+      a:active {
+        color: $main_orange;
+      }
     }
   }
   .btn_sign {
@@ -126,6 +129,9 @@
           li{
             a:hover{
               color: $main_dark;
+            }
+            a:active {
+              color: $main_orange;
             }
           }
          :nth-child(1){

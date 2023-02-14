@@ -69,6 +69,9 @@ a {
 .header_navbar ul li a:hover {
   color: #22343d;
 }
+.header_navbar ul li a:active {
+  color: #f03e3d;
+}
 .header_navbar .btn_sign {
   border: 1px solid #bcd0e5;
   border-radius: 4px;
@@ -174,6 +177,9 @@ a {
   }
   .header_navbar .menu nav ul li a:hover {
     color: #22343d;
+  }
+  .header_navbar .menu nav ul li a:active {
+    color: #f03e3d;
   }
   .header_navbar .menu nav ul :nth-child(1) {
     margin: 0 70px;
@@ -1022,6 +1028,9 @@ a {
   color: #02897a;
   transition: all 0.2s ease-in-out;
 }
+.contents .content .strategy li a:active {
+  color: #f03e3d;
+}
 
 @media (max-width: 411px) {
   .contents h2 {
@@ -1089,6 +1098,9 @@ a {
   .contents .content .strategy li a:hover {
     color: #02897a;
     transition: all 0.2s ease-in-out;
+  }
+  .contents .content .strategy li a:active {
+    color: #f03e3d;
   }
 }
 .table .standart {
@@ -1634,6 +1646,9 @@ footer .all:hover {
 .footer_card ul li a:hover {
   color: #02897a;
 }
+.footer_card ul li a:active {
+  color: #f03e3d;
+}
 .footer_card .item1 .logo {
   display: flex;
   align-items: center;
@@ -1742,6 +1757,9 @@ footer .all:hover {
   }
   .footer_card ul li a:hover {
     color: #02897a;
+  }
+  .footer_card ul li a:active {
+    color: #f03e3d;
   }
   .footer_card .item1 {
     margin-left: 45px;

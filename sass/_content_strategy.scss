@@ -54,6 +54,9 @@
           color: $main_green;
           transition: all 0.2s ease-in-out;
         }
+        a:active{
+            color: $main_orange;
+        }
       }
     }
   }
@@ -125,6 +128,9 @@
             color: $main_green;
             transition: all 0.2s ease-in-out;
           }
+          a:active{
+            color: $main_orange;
+        }
         }
       }
     }

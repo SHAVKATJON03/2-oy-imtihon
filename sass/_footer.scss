@@ -74,6 +74,9 @@ footer {
       a:hover {
         color: $main_green;
       }
+      a:active {
+        color: $main_orange;
+      }
     }
   }
   .item1 {
@@ -185,6 +188,9 @@ footer {
         a:hover {
           color: $main_green;
         }
+        a:active {
+            color: $main_orange;
+          }
       }
     }
     .item1 {
